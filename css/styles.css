@@ -1,0 +1,45 @@
+h1 {
+    font-family: 'AR One Sans', sans-serif;
+    font-weight: 700;
+}
+
+h2, h5 {
+    font-family: 'AR One Sans', sans-serif;
+    font-weight: 500;
+}
+
+p, li {
+    font-family: 'Assistant', sans-serif;
+}
+
+.intro-container {
+    max-width: 750px;
+    margin: 4em auto 3em auto;
+    text-align: center;
+}
+
+.intro-img {
+    max-width: auto;
+    max-height: 200px;
+}
+
+.bio-container, .work-container, .publications-container, .contact-container {
+    max-width: 650px;
+    margin: 4em 2em 4em 2em;
+}
+
+.nav-link {
+    font-family: 'AR One Sans', sans-serif;
+}
+
+.work-hr {
+    max-width: 25%;
+    margin: 1.5em auto;
+}
+
+@media (max-width: 767px) {
+    .card {
+        max-width: 75%;
+        max-height: 50%;
+    }
+}
