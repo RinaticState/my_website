@@ -1,15 +1,30 @@
+@import url(https://db.onlinewebfonts.com/c/96e3eaa4be579c8593e16efe703d43c2?family=Acre-Medium);
+
+@font-face {
+    font-family: 'Belbo';
+    src: url('assets/fonts/Belbo-Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: "Acre-Medium";
+    src: url("https://db.onlinewebfonts.com/t/96e3eaa4be579c8593e16efe703d43c2.eot");
+    src: url("https://db.onlinewebfonts.com/t/96e3eaa4be579c8593e16efe703d43c2.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/96e3eaa4be579c8593e16efe703d43c2.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/96e3eaa4be579c8593e16efe703d43c2.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/96e3eaa4be579c8593e16efe703d43c2.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/96e3eaa4be579c8593e16efe703d43c2.svg#Acre-Medium")format("svg");
+}
+
 h1 {
-    font-family: 'AR One Sans', sans-serif;
-    font-weight: 700;
+    font-family: 'Acre-Medium', 'AR One Sans', sans-serif;
 }
 
 h2, h5 {
-    font-family: 'AR One Sans', sans-serif;
-    font-weight: 500;
+    font-family: 'Acre-Medium', 'AR One Sans', sans-serif;
 }
 
 p, li {
-    font-family: 'Assistant', sans-serif;
+    font-family: 'Belbo', 'Assistant', sans-serif;
 }
 
 .intro-container {
@@ -23,18 +38,23 @@ p, li {
     max-height: 200px;
 }
 
-.bio-container, .work-container, .publications-container, .contact-container {
+.welcome-container, .bio-container, .work-container, .publications-container, .contact-container {
     max-width: 650px;
     margin: 4em 2em 4em 2em;
 }
 
-.nav-link {
-    font-family: 'AR One Sans', sans-serif;
+.nav-item {
+    font-size: large;
+    font-family: 'Avenir Medium', 'AR One Sans', sans-serif;
 }
 
 .work-hr {
     max-width: 25%;
     margin: 1.5em auto;
+}
+
+.item-head {
+    color: #616161;
 }
 
 @media (max-width: 767px) {
