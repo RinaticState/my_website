@@ -39,7 +39,7 @@ p, li {
 }
 
 .welcome-container, .bio-container, .work-container, .publications-container, .contact-container {
-    max-width: 650px;
+    max-width: 720px;
     margin: 4em 2em 4em 2em;
 }
 
