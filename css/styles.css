@@ -25,6 +25,7 @@ h2, h5 {
 
 p, li {
     font-family: 'Belbo', 'Assistant', sans-serif;
+    font-size: 102%;
 }
 
 .intro-container {
@@ -37,6 +38,7 @@ p, li {
     max-width: auto;
     max-height: 200px;
 }
+
 
 .welcome-container, .bio-container, .work-container, .publications-container, .contact-container {
     max-width: 720px;
@@ -56,6 +58,11 @@ p, li {
 .item-head {
     color: #616161;
 }
+
+[data-bs-theme="dark"] .item-head {
+    color: #c7c7c7; /* Lighter color for dark mode for better readability */
+}
+
 
 @media (max-width: 767px) {
     .card {
