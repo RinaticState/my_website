@@ -5,22 +5,12 @@
     src: url('assets/fonts/Belbo-Light.otf') format('opentype');
 }
 
-@font-face {
-    font-family: "Acre-Medium";
-    src: url("https://db.onlinewebfonts.com/t/96e3eaa4be579c8593e16efe703d43c2.eot");
-    src: url("https://db.onlinewebfonts.com/t/96e3eaa4be579c8593e16efe703d43c2.eot?#iefix")format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/96e3eaa4be579c8593e16efe703d43c2.woff2")format("woff2"),
-    url("https://db.onlinewebfonts.com/t/96e3eaa4be579c8593e16efe703d43c2.woff")format("woff"),
-    url("https://db.onlinewebfonts.com/t/96e3eaa4be579c8593e16efe703d43c2.ttf")format("truetype"),
-    url("https://db.onlinewebfonts.com/t/96e3eaa4be579c8593e16efe703d43c2.svg#Acre-Medium")format("svg");
-}
-
 h1 {
-    font-family: 'Acre-Medium', 'AR One Sans', sans-serif;
+    font-family: 'AR One Sans', sans-serif;
 }
 
 h2, h5 {
-    font-family: 'Acre-Medium', 'AR One Sans', sans-serif;
+    font-family: 'AR One Sans', sans-serif;
 }
 
 p, li {
