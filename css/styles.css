@@ -1,20 +1,23 @@
-@import url(https://db.onlinewebfonts.com/c/96e3eaa4be579c8593e16efe703d43c2?family=Acre-Medium);
+@font-face {
+    font-family: 'RealTextPro';
+    src: url('../assets/fonts/RealTextPro-Regular.woff2') format('woff2');
+}
 
 @font-face {
-    font-family: 'Belbo';
-    src: url('assets/fonts/Belbo-Light.otf') format('opentype');
+    font-family: 'Neutronic';
+    src: url('../assets/fonts/Neutronic-Regular.woff2') format('woff2');
 }
 
 h1 {
-    font-family: 'AR One Sans', sans-serif;
+    font-family: 'RealTextPro', sans-serif;
 }
 
 h2, h5 {
-    font-family: 'AR One Sans', sans-serif;
+    font-family: 'RealTextPro', sans-serif;
 }
 
 p, li {
-    font-family: 'Belbo', 'Assistant', sans-serif;
+    font-family: 'Neutronic', sans-serif;
     font-size: 102%;
 }
 
@@ -37,7 +40,7 @@ p, li {
 
 .nav-item {
     font-size: large;
-    font-family: 'Acre-Medium', 'AR One Sans', sans-serif;
+    font-family: 'RealTextPro', sans-serif;
 }
 
 .work-hr {
